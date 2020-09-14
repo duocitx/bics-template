@@ -5,11 +5,11 @@ const { name } = moduleOptions;
 
 const routes: RouteConfig[] = [
   {
-    path: 'sample',
-    name: `${name}-sample`,
-    component: () => import(/* webpackChunkName: "sample-63732682449" */'./sample.page.vue'),
+    path: 'home',
+    name: `${name}-home`,
+    component: () => import(/* webpackChunkName: "sample-63732682449" */'./home.page.vue'),
     meta: {
-      title: `modules.${name}.pages.sample.title`,
+      title: `modules.${name}.pages.home.title`,
       navigation: true,
       icon: 'si si-docs',
       order: 2

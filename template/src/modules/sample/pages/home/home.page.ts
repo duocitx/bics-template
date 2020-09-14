@@ -5,7 +5,7 @@ import columns from './home.columns';
 import moduleOptions from '../../module.config';
 
 const { name } = moduleOptions;
-const page_title = `modules.${name}.pages.category`;
+const page_title = `modules.${name}.pages.home`;
 
 @Component({
   name: 'HomePage',

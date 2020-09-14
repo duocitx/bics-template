@@ -19,5 +19,5 @@
     </div>
   </div>
 </template>
-<script lang="ts" src="./category.page.ts"></script>
-<style lang="scss" src="./category.page.scss"></style>
+<script lang="ts" src="./home.page.ts"></script>
+<style lang="scss" src="./home.page.scss"></style>
