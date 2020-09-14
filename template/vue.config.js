@@ -1,5 +1,5 @@
 module.exports = {
-  outputDir: '../wwwroot/admin',
+  outputDir: '{{output_dir}}',
   productionSourceMap: false,
   filenameHashing: false,
   devServer: {
@@ -24,7 +24,7 @@ module.exports = {
     });
   },
   pwa: {
-    name: 'Bics',
-    short_name: 'Bics'
+    name: '{{name}}',
+    short_name: '{{short_name}}'
   }
 };

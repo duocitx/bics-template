@@ -9,7 +9,7 @@ const moduleMessagesContext = require.context('./modules/', true, /\.message\.ts
 
 const bics = Bics.run({
   el: '#app',
-  name: 'CMS',
+  name: '{{short_name}}',
   icon: 'mdi mdi-18px mdi-format-bold',
   version: '2020.8.1',
   supportCultures: ['en', 'fr'],

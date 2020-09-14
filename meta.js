@@ -9,21 +9,33 @@ module.exports = {
     name: {
       type: 'string', // Question type
       required: true, // Is question Required
-      message: 'BICS project' // Question it's self
+      message: 'Name' // Question it's self
+    },
+    short_name: {
+      type: 'string', // Question type
+      required: true, // Is question Required
+      message: 'Short name' // Question it's self
     },
     description: {
       type: 'string',
       required: false,
-      message: '',
+      message: 'description',
       default: 'BICS project'
     },
     author: {
       type: 'string',
-      message: 'Huu Duoc Nguyen<duocitx@gmail.com>'
+      message: 'Author',
+      default: 'Huu Duoc Nguyen<duocitx@gmail.com>'
     },
-    extra: {
+    keywords: {
       type: 'string',
-      message: 'Extra Messaging!'
+      message: 'Keywords',
+      default: ''
+    },
+    output_dir: {
+      type: 'string',
+      message: 'Output directory',
+      default: '../wwwroot'
     }
   },
 

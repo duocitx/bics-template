@@ -1,6 +1,9 @@
 {
   "name": "{{name}}",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "version": "0.1.0",
+  "keywords": "{{keywords}}"
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --mode development --open",
