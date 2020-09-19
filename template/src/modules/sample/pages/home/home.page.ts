@@ -1,4 +1,4 @@
-import { Component, Inject, Mixins } from 'vue-property-decorator';
+import { Component, Inject } from 'vue-property-decorator';
 import { ListPage, PageHeading, Breadcrumb, Grid, Column } from 'bics';
 import HomeService from './services/home.service';
 import columns from './home.columns';

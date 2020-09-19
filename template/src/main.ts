@@ -2,10 +2,12 @@
 
 import 'bics/lib/bics.css';
 
-const modulesContext = require.context('./modules/', true, /module.config\.ts/i);
-const routesContext = require.context('./modules/', true, /route\.ts/i);
-const servicesContext = require.context('./modules/', true, /.*\/services\/.*\.ts/i);
-const moduleMessagesContext = require.context('./modules/', true, /\.message\.ts/i);
+const modules_directory = './modules/';
+
+const modulesContext = require.context(modules_directory, true, /module\.config\.ts/i);
+const routesContext = require.context(modules_directory, true, /route\.ts/i);
+const servicesContext = require.context(modules_directory, true, /\.service\.ts/i);
+const moduleMessagesContext = require.context(modules_directory, true, /\.message\.ts/i);
 
 const bics = Bics.run({
   el: '#app',
