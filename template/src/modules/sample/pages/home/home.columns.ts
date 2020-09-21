@@ -6,7 +6,7 @@ const storageKey = `modules.${name}.pages.home.columns`;
 
 const columnsFromStorage = Storage.get(storageKey);
 
-const columns: Column[] = <Column[]>columnsFromStorage || [
+const columns: Column[] = (columnsFromStorage as Column[]) || [
   {
     field: 'title',
     title: 'fields.name',
