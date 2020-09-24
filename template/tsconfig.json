@@ -12,9 +12,6 @@
     "sourceMap": false,
     "noEmit": true,
     "baseUrl": ".",
-    "types": [
-      "webpack-env"
-    ],
     "typeRoots": [
       "node_modules/@types",
       "typings"
