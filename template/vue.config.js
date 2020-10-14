@@ -1,7 +1,7 @@
 module.exports = {
   outputDir: '{{output_dir}}',
   productionSourceMap: false,
-  filenameHashing: false,
+  filenameHashing: true,
   devServer: {
     port: 8080
   },

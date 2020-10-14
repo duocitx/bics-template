@@ -6,6 +6,11 @@ module.exports = {
    * Add your own Prompt questions here!
    */
   prompts: {
+    code: {
+      type: 'string', // Question type
+      required: true, // Is question Required
+      message: 'Code' // Question it's self
+    },
     name: {
       type: 'string', // Question type
       required: true, // Is question Required
