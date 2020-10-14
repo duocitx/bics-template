@@ -19,7 +19,7 @@ module.exports = {
     title: {
       type: 'string', // Question type
       required: true, // Is question Required
-      message: 'Code' // Question it's self
+      message: 'Title' // Question it's self
     },
     description: {
       type: 'string',
