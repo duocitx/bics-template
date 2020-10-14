@@ -8,7 +8,7 @@ const options: BicsModuleOptions = {
   version: '2020.06.15.1',
   variant: 'success',
   order: 0,
-  component: LayoutBackend,,
+  component: LayoutBackend,
   apiEndpoint: environment.API_ENDPOINT
 };
 export default new BicsModule(options);
