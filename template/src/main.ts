@@ -12,7 +12,7 @@ const moduleMessagesContext = require.context('./modules/', true, /\.message\.ts
 
 auth_manager.configure({
   authority: environment.AUTH_ENDPOINT,
-  client_id: 'sis',
+  client_id: '{{short_name}}',
   scope: 'openid profile',
   response_type: 'code'
 } as IAuthConfig);

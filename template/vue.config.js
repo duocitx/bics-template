@@ -24,7 +24,7 @@ module.exports = {
     });
   },
   pwa: {
-    name: '{{name}}',
+    name: '{{title}}',
     short_name: '{{short_name}}'
   }
 };

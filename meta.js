@@ -6,11 +6,6 @@ module.exports = {
    * Add your own Prompt questions here!
    */
   prompts: {
-    code: {
-      type: 'string', // Question type
-      required: true, // Is question Required
-      message: 'Code' // Question it's self
-    },
     name: {
       type: 'string', // Question type
       required: true, // Is question Required
@@ -20,6 +15,11 @@ module.exports = {
       type: 'string', // Question type
       required: true, // Is question Required
       message: 'Short name' // Question it's self
+    },
+    title: {
+      type: 'string', // Question type
+      required: true, // Is question Required
+      message: 'Code' // Question it's self
     },
     description: {
       type: 'string',
